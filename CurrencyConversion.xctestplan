@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "C3E35584-4C02-457E-B33A-5FD2417CC867",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:CurrencyConverterPackage",
+        "identifier" : "CurrencyFeatureTests",
+        "name" : "CurrencyFeatureTests"
+      }
+    }
+  ],
+  "version" : 1
+}

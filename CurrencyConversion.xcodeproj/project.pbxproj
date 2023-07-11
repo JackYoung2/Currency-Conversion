@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0450FC892A5BF6FF004A7F6E /* CurrencyConversionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450FC882A5BF6FF004A7F6E /* CurrencyConversionApp.swift */; };
-		0450FC8B2A5BF6FF004A7F6E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0450FC8A2A5BF6FF004A7F6E /* ContentView.swift */; };
-		0450FC8D2A5BF700004A7F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0450FC8C2A5BF700004A7F6E /* Assets.xcassets */; };
-		0450FC902A5BF700004A7F6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0450FC8F2A5BF700004A7F6E /* Preview Assets.xcassets */; };
+		04F742EC2A5C835E0086D77B /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 04F742EB2A5C835E0086D77B /* AppFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04470C972A5C996E00E86699 /* CurrencyConverterPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CurrencyConverterPackage; sourceTree = "<group>"; };
 		0450FC852A5BF6FF004A7F6E /* CurrencyConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0450FC882A5BF6FF004A7F6E /* CurrencyConversionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConversionApp.swift; sourceTree = "<group>"; };
-		0450FC8A2A5BF6FF004A7F6E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0450FC8C2A5BF700004A7F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0450FC8F2A5BF700004A7F6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04F742EE2A5C859C0086D77B /* CurrencyConversion.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CurrencyConversion.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +21,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F742EC2A5C835E0086D77B /* AppFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +31,10 @@
 		0450FC7C2A5BF6FF004A7F6E = {
 			isa = PBXGroup;
 			children = (
-				0450FC872A5BF6FF004A7F6E /* CurrencyConversion */,
+				04470C972A5C996E00E86699 /* CurrencyConverterPackage */,
+				04F742EE2A5C859C0086D77B /* CurrencyConversion.xctestplan */,
 				0450FC862A5BF6FF004A7F6E /* Products */,
+				04DB8EAD2A5BFAE100B3FBD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -48,23 +46,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0450FC872A5BF6FF004A7F6E /* CurrencyConversion */ = {
+		04DB8EAD2A5BFAE100B3FBD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0450FC882A5BF6FF004A7F6E /* CurrencyConversionApp.swift */,
-				0450FC8A2A5BF6FF004A7F6E /* ContentView.swift */,
-				0450FC8C2A5BF700004A7F6E /* Assets.xcassets */,
-				0450FC8E2A5BF700004A7F6E /* Preview Content */,
 			);
-			path = CurrencyConversion;
-			sourceTree = "<group>";
-		};
-		0450FC8E2A5BF700004A7F6E /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0450FC8F2A5BF700004A7F6E /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +69,9 @@
 			dependencies = (
 			);
 			name = CurrencyConversion;
+			packageProductDependencies = (
+				04F742EB2A5C835E0086D77B /* AppFeature */,
+			);
 			productName = CurrencyConversion;
 			productReference = 0450FC852A5BF6FF004A7F6E /* CurrencyConversion.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +100,9 @@
 				Base,
 			);
 			mainGroup = 0450FC7C2A5BF6FF004A7F6E;
+			packageReferences = (
+				04568B2A2A5C7CD100793E0F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 0450FC862A5BF6FF004A7F6E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +117,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0450FC902A5BF700004A7F6E /* Preview Assets.xcassets in Resources */,
-				0450FC8D2A5BF700004A7F6E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +127,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0450FC8B2A5BF6FF004A7F6E /* ContentView.swift in Sources */,
-				0450FC892A5BF6FF004A7F6E /* CurrencyConversionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +254,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConversion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 7T3V73LMKG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +283,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CurrencyConversion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 7T3V73LMKG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -339,6 +327,24 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04568B2A2A5C7CD100793E0F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04F742EB2A5C835E0086D77B /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0450FC7D2A5BF6FF004A7F6E /* Project object */;
 }
