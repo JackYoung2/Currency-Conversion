@@ -175,9 +175,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "204"
-            endingLineNumber = "204"
-            landmarkName = "init(inMemory:)"
-            landmarkType = "7">
+            endingLineNumber = "204">
             <Locations>
                <Location
                   uuid = "498068DC-9342-4244-9C08-E7C35BA6F2B3 - cccdcfd7bea34391"
@@ -1114,69 +1112,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A98F29D4-3C23-4C4F-81F4-A4C14637BFCA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CurrencyConverterPackage/Sources/Database/CoreDataInterface.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "storeRates(_:at:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A98F29D4-3C23-4C4F-81F4-A4C14637BFCA - 1417b004a9100374"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for Database.CoreDataInterface.storeRates(CCModels.ExchangeRateItem) async throws -&gt; ()"
-                  moduleName = "CurrencyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/Database/CoreDataInterface.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "552">
-               </Location>
-               <Location
-                  uuid = "A98F29D4-3C23-4C4F-81F4-A4C14637BFCA - e317f6fafce828a2"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for Database.CoreDataInterface.storeRates(_: Swift.Array&lt;CCModels.ExchangeRate&gt;, at: Foundation.Date) async throws -&gt; ()"
-                  moduleName = "CurrencyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/Database/CoreDataInterface.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "224">
-               </Location>
-               <Location
-                  uuid = "A98F29D4-3C23-4C4F-81F4-A4C14637BFCA - c039584376ab283f"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.NSManagedObject) -&gt; Swift.Bool in Database.CoreDataInterface.storeRates(_: Swift.Array&lt;CCModels.ExchangeRate&gt;, at: Foundation.Date) async throws -&gt; ()"
-                  moduleName = "CurrencyConversion"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/Database/CoreDataInterface.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "113"
-                  endingLineNumber = "113"
-                  offsetFromSymbolStart = "204">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2E2350A5-7E01-4198-A86B-54CC92FD0842"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -1490,6 +1425,84 @@
             endingLineNumber = "69"
             landmarkName = "mockEmptyStore"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FC88299-A55E-4C9A-9697-4E235382A5A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CurrencyConverterPackage/Sources/CurrencyFeature/CurrencyConversionFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "convert(to:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0FC88299-A55E-4C9A-9697-4E235382A5A5 - f7fc3328aab2ae7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CurrencyFeature.CurrencyConversionFeature.State.convert(to: Swift.String) throws -&gt; Swift.String"
+                  moduleName = "CurrencyFeatureTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/CurrencyFeature/CurrencyConversionFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "0FC88299-A55E-4C9A-9697-4E235382A5A5 - f7fc3328aab2ae7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CurrencyFeature.CurrencyConversionFeature.State.convert(to: Swift.String) throws -&gt; Swift.String"
+                  moduleName = "CurrencyFeatureTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/CurrencyFeature/CurrencyConversionFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "988">
+               </Location>
+               <Location
+                  uuid = "0FC88299-A55E-4C9A-9697-4E235382A5A5 - bc452baf2e6b53c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CurrencyFeature.CurrencyConversionFeature.State.convert(to: Swift.String) throws -&gt; Swift.String"
+                  moduleName = "CurrencyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/CurrencyFeature/CurrencyConversionFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "0FC88299-A55E-4C9A-9697-4E235382A5A5 - bc452baf2e6b53c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CurrencyFeature.CurrencyConversionFeature.State.convert(to: Swift.String) throws -&gt; Swift.String"
+                  moduleName = "CurrencyConversion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jack/Documents/Projects/CurrencyConversion/CurrencyConverterPackage/Sources/CurrencyFeature/CurrencyConversionFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "988">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
